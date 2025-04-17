@@ -63,3 +63,9 @@ while (j<= high){
     j++;
     k++;
 }
+
+//step 5
+for (int y = low; y<=high; y++)//step 5.a
+{
+    arr[y] = B[y]; //step 5.b
+}
