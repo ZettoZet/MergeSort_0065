@@ -18,3 +18,10 @@ for (int i = 0; i<n; i++){
     cout << "Array index ke - " <<i <<":";
     cin >> arr[i];
 }
+
+void mergeSort(int low, int high){
+    //step 1
+    if (low >= high){
+        return; //step 1.a
+    }
+}
