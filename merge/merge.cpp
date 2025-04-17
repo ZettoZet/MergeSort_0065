@@ -69,3 +69,11 @@ for (int y = low; y<=high; y++)//step 5.a
 {
     arr[y] = B[y]; //step 5.b
 }
+
+void output(){
+    cout << "\n Data setelah diurutkan (MergeSort) :"
+    for (int i = 0; i < n; i++){
+        cout << arr[i] << "";
+    }
+    cout << end1;
+}
