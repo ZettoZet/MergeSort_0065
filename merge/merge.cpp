@@ -77,3 +77,9 @@ void output(){
     }
     cout << end1;
 }
+
+void main(){
+    input();
+    mergeSort(0,n-1);
+    output();
+}
