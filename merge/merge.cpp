@@ -28,3 +28,7 @@ void mergeSort(int low, int high){
 
 // step 2
 int mid = (low +high) / 2;
+
+//step 3
+mergeSort(low, mid); //step 3.a
+mergeSort(mid+1,high); //step 3.b
